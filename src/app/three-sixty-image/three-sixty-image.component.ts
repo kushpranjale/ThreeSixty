@@ -14,8 +14,8 @@ export class ThreeSixtyImageComponent implements OnInit {
   panorama2: any;
   infospot: any;
   constructor() {
-    this.panorama = new PANOLENS.ImagePanorama('/assets/test.jpeg');
-    this.panorama2 = new PANOLENS.ImagePanorama('/assets/test2.jpeg');
+    this.panorama = new PANOLENS.ImagePanorama('assets/test.jpeg');
+    this.panorama2 = new PANOLENS.ImagePanorama('assets/test2.jpeg');
   }
 
   ngOnInit(): void {
